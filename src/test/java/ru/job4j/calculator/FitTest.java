@@ -5,7 +5,6 @@ import org.junit.Test;
 
 public class FitTest {
 
-    @SuppressWarnings("checkstyle:NoWhitespaceBefore")
     @Test
     public void whenMan180Then92() {
         short in = 180;
