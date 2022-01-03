@@ -17,7 +17,7 @@ public class PointTest {
     }
 
     @Test
-    public void when01to20then0() {
+    public void when00to00then0() {
         double expected = 0;
         int x1 = 0;
         int y1 = 0;
@@ -47,5 +47,9 @@ public class PointTest {
         int y2 = 0;
         double out = Point.distance(x1, y1, x2, y2);
         Assert.assertEquals(expected, out, 0.01);
+    }
+
+    @Test
+    public void distance() {
     }
 }
