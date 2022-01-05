@@ -74,4 +74,8 @@ public class ThreeMaxTest {
         int expected = 100;
         Assert.assertEquals(expected, result);
     }
+
+    @Test
+    public void max() {
     }
+}
