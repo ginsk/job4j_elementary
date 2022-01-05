@@ -78,4 +78,8 @@ public class ThreeMaxTest {
     @Test
     public void max() {
     }
+
+    @Test
+    public void testMax() {
+    }
 }
