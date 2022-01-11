@@ -28,4 +28,16 @@ public class MatrixCheckTest {
         boolean result = MatrixCheck.monoVertical(input, column);
         Assert.assertTrue(result);
     }
+
+    @Test
+    public void whenDiagonalMix() {
+        char[][] input = {
+                {'X', ' ', ' '},
+                {' ', 'Y', ' '},
+                {' ', ' ', 'Z'},
+        };
+        char[] result = MatrixCheck.extractDiagonal(input);
+        char[] expected = {'X', 'Y', 'Z'};
+        Assert.assertArrayEquals(expected, result);
+    }
     }
