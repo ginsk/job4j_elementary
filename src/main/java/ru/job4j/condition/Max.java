@@ -7,11 +7,11 @@ public class Max {
             }
 
     public static int max(int first, int right, int left) {
-        return first > max(left, right) ? first : max(left, right);
+        return max(first, max(left, right));
     }
 
     public static int max(int first, int right, int left, int four) {
-        return four > max(first, right, left) ? four : max(first, right, left);
+        return  max(four, max(first, right, left));
     }
     }
 
